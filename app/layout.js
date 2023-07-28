@@ -1,45 +1,23 @@
-import './globals.css'
-import headerStyles from '../styles/Header.module.css'
-import { Inter, Manrope } from 'next/font/google'
-import Link from 'next/link'
+import "./globals.css";
+import { Manrope } from "next/font/google";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ['latin'] })
-const manrope = Manrope({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Zane\'s Website',
-  description: 'Created by Zane Harrison',
-}
-
-export function Header() {
-  return (
-    <div className={headerStyles["flex-container"]}>
-      <div className={headerStyles["flex-child"]}>
-        <Link href='/'><h2>Home</h2></Link>  
-      </div>
-      <div className={headerStyles["flex-child"]}>
-        <Link href='/about'><h2>About</h2></Link>
-      </div>
-    </div>
-  )
-}
-
-export function Footer() {
-  return (
-    <div>
-      <p>foot</p>
-    </div>
-  )
-}
+  title: "Zane's Website",
+  description: "Created by Zane Harrison",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={manrope.className}>
-        <Header/>
-        {children}
-        <Footer/>
+        <Header />
+        <div className="page-wrap">{children}</div>
+        <Footer />
       </body>
     </html>
-  )
+  );
 }

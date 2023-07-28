@@ -1,7 +1,14 @@
 .flex-container {
-    display: flex;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  justify-content: center;
 }
 
 .flex-child {
-    flex: 1;
-}  
+  background-color: #e8e8e8;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
