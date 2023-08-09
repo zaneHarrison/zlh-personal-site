@@ -5,11 +5,11 @@ export default function AboutMeSection() {
   return (
     <div className={aboutMeStyles.container} id="about-me-container">
       <div className={aboutMeStyles["about-me-text"]} id="about-me-text">
-        <h2>About Me</h2>
-        <h3>
+        <h1>About Me</h1>
+        <p className={aboutMeStyles["about-me-p-text"]}>
           This is where I'll put some about me text. Talk about my education,
           interests, and whatever else I feel like putting here!
-        </h3>
+        </p>
       </div>
       <div id="about-me-image">
         <Image
