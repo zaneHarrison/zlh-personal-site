@@ -37,3 +37,10 @@ body {
   background: #e8e8e8;
   color: rgb(137, 137, 137);
 }
+
+/* Force browser to calculate the width according to the outer width of the div, to prevent padding from changing div size*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

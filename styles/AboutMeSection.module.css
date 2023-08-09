@@ -1,5 +1,17 @@
 .container {
   background-color: #e8e8e8;
-  width: 100%;
+  width: 100vw;
   display: flex;
+  gap: 12vw;
+  justify-content: center;
+  padding: 100px;
+}
+
+.about-me-text {
+  width: 300px;
+}
+
+.headshot {
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
