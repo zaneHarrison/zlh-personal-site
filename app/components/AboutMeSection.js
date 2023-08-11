@@ -1,6 +1,5 @@
 import aboutMeStyles from "../../styles/AboutMeSection.module.css";
 import Image from "next/image";
-import ResumeDownloadButton from "./DownloadResumeButton";
 
 export default function AboutMeSection() {
   return (
@@ -13,7 +12,6 @@ export default function AboutMeSection() {
           enjoy biking, reading and writing, learning about web development,
           exploring new music, and playing the piano.
         </p>
-        <ResumeDownloadButton />
       </div>
       <div id="about-me-image">
         <Image
