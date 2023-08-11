@@ -9,13 +9,35 @@
 
 .about-me-text {
   width: 300px;
+  height: var(--about-me-section-flex-item-height);
 }
 
 .about-me-p-text {
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 .headshot {
-  border-radius: 10%;
+  border-radius: 5%;
   box-shadow: 4.5px 9px 9px hsl(0deg 0% 0% / 0.36);
+}
+
+.horizontal-line {
+  height: 3px;
+  background-color: #3a3b3c;
+  border: none;
+}
+
+.download-resume {
+  text-decoration: none;
+  color: #3a3b3c;
+  padding: 15px;
+  border: solid 2px #3a3b3c;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+.download-resume:hover {
+  color: #e8e8e8;
+  background-color: #3a3b3c;
 }
