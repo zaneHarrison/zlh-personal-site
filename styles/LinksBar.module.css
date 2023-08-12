@@ -1,0 +1,16 @@
+.links-bar-container {
+  height: 275px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevron {
+  color: white;
+  font-size: 150px;
+}
+
+.link-bar-image {
+  margin: 15px;
+}
