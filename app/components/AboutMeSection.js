@@ -8,7 +8,7 @@ export default function AboutMeSection() {
         <h1>A Bit About Me</h1>
         <hr className={aboutMeStyles["horizontal-line"]}></hr>
         <p className={aboutMeStyles["about-me-p-text"]}>
-          I'm from Tyler, TX and am currently in my senior year at Duke
+          I&apos;m from Tyler, TX and am currently in my senior year at Duke
           University. I enjoy biking, reading and writing, learning about web
           development, exploring new music, and playing the piano.
         </p>

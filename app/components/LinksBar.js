@@ -12,6 +12,7 @@ export default function LinksBar() {
           src="/linkedin-logo.png"
           width={100}
           height={100}
+          alt="LinkedIn logo"
         ></Image>
       </Link>
       <Link href="https://github.com/zaneHarrison" target="_blank">
@@ -20,6 +21,7 @@ export default function LinksBar() {
           src="/github-logo.png"
           width={125}
           height={125}
+          alt="GitHub logo"
         ></Image>
       </Link>
       <Link href="https://www.instagram.com/_zane.harrison_/" target="_blank">
@@ -28,6 +30,7 @@ export default function LinksBar() {
           src="/instagram-logo.png"
           width={80}
           height={80}
+          alt="Instagram logo"
         ></Image>
       </Link>
 
