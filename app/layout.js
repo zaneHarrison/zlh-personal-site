@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={manrope.className}>
-        <Header />
+        {/* <Header /> */}
         <div className="page-wrap">{children}</div>
         <Footer />
       </body>
