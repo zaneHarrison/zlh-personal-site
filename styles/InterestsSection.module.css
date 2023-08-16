@@ -1,4 +1,13 @@
 .container {
   height: 500px;
   background-color: #94778b;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: 0;
+  color: #fffffc;
+  padding: 60px;
+  font-size: 40px;
 }
