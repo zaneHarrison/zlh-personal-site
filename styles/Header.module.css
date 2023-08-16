@@ -6,7 +6,7 @@
 }
 
 .flex-child {
-  background-color: #e8e8e8;
+  background-color: #fffffc;
   flex: 1;
   display: flex;
   align-items: center;

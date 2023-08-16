@@ -3,6 +3,8 @@ import AboutMeSection from "./components/AboutMeSection";
 import ViewResumeSection from "./components/ViewResumeSection";
 import LinksBar from "./components/LinksBar";
 import MobileMessage from "./components/MobileMessage";
+import InterestsSection from "./components/InterestsSection";
+import { Inter } from "next/font/google";
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <MobileMessage />
       <LandingPageGreeting />
       <AboutMeSection />
+      <InterestsSection />
       <LinksBar />
       <ViewResumeSection />
     </main>
