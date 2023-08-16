@@ -1,0 +1,7 @@
+.error-message {
+  display: grid;
+  justify-content: center;
+  color: red;
+  background-color: #e8e8e8;
+  text-align: center;
+}
