@@ -1,17 +1,42 @@
-.center-container {
-  width: 100%;
-  height: 85vh;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
+@media only screen and (min-width: 200px) {
+  .center-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center-text {
+    color: #fffffc;
+    text-align: center;
+  }
+
+  h1.center-text {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 
-.center-text {
-  color: #fffffc;
-  text-align: center;
-}
+/* Large devices (laptops/desktops, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .center-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
 
-h1.center-text {
-  font-size: 70px;
+  .center-text {
+    color: #fffffc;
+    text-align: center;
+  }
+
+  h1.center-text {
+    font-size: 70px;
+  }
 }

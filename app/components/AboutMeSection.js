@@ -5,7 +5,7 @@ export default function AboutMeSection() {
   return (
     <div className={aboutMeStyles.container} id="about-me-container">
       <div className={aboutMeStyles["about-me-text"]} id="about-me-text">
-        <h1>A Bit About Me</h1>
+        <h1 className={aboutMeStyles["about-me-title"]}>A Bit About Me</h1>
         <hr className={aboutMeStyles["horizontal-line"]}></hr>
         <p className={aboutMeStyles["about-me-p-text"]}>
           I&apos;m from Tyler, TX and am currently in my senior year at Duke
@@ -13,7 +13,7 @@ export default function AboutMeSection() {
           development, exploring new music, and playing the piano.
         </p>
       </div>
-      <div id="about-me-image">
+      <div className={aboutMeStyles["headshot-container"]} id="about-me-image">
         <Image
           src="/headshot.jpg"
           width={300}
