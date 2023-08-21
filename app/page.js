@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <LandingPageGreeting />
       <AboutMeSection />
-      <InterestsSection />
+      {/* <InterestsSection /> */}
       <LinksBar />
     </main>
   );
