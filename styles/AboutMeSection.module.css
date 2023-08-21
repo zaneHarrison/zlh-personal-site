@@ -4,7 +4,7 @@
     background-color: #fffffc;
     width: 100vw;
     display: grid;
-    gap: 12vw;
+    gap: 6vw;
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -12,6 +12,7 @@
 
   .about-me-title {
     font-size: 25px;
+    margin: 2px;
   }
 
   .about-me-text {
@@ -55,6 +56,11 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+  }
+
+  .about-me-title {
+    font-size: 35px;
+    margin: 5px;
   }
 
   .about-me-text {
@@ -114,8 +120,8 @@
   .headshot {
     border-radius: 5%;
     box-shadow: 4.5px 9px 9px hsl(0deg 0% 0% / 0.36);
-    height: 35vw;
-    width: 35vw;
+    height: 33vw;
+    width: 33vw;
   }
 
   .horizontal-line {

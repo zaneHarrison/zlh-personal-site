@@ -1,17 +1,65 @@
-.links-bar-container {
-  background-color: #2d3142;
-  height: 275px;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .links-bar-container {
+    background-color: #2d3142;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chevron {
+    color: #fffffc;
+    font-size: 70px;
+  }
+
+  .link-bar-image {
+    margin: -12px;
+    transform: scale(0.6);
+  }
 }
 
-.chevron {
-  color: #fffffc;
-  font-size: 150px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .links-bar-container {
+    background-color: #2d3142;
+    height: 275px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chevron {
+    color: #fffffc;
+    font-size: 100px;
+  }
+
+  .link-bar-image {
+    margin: 6px;
+    transform: scale(0.8);
+  }
 }
 
-.link-bar-image {
-  margin: 15px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .links-bar-container {
+    background-color: #2d3142;
+    height: 275px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chevron {
+    color: #fffffc;
+    font-size: 150px;
+  }
+
+  .link-bar-image {
+    margin: 15px;
+    transform: scale(1);
+  }
 }

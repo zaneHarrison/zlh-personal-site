@@ -12,7 +12,6 @@ export default function Home() {
       <AboutMeSection />
       <InterestsSection />
       <LinksBar />
-      <ViewResumeSection />
     </main>
   );
 }
