@@ -1,5 +1,22 @@
-.container {
-  height: 80px;
-  width: 80px;
-  background-color: blue;
+.interest-item {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.link:link {
+  font-size: 22px;
+  color: #2d3142;
+  text-decoration: none;
+  transition: all 500ms;
+}
+
+.link:visited {
+  font-size: 22px;
+  color: #2d3142;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-size: 28px;
+  color: #fffffc;
 }
